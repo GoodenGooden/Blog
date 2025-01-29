@@ -13,7 +13,7 @@ body {
 
 .div-container {
    height: 90vh;
-   background-image: url(/women.webp) ;
+   background-image: url(/src/women.webp) ;
     background-size: cover;
     background-position: top;
     position: relative;
