@@ -1,0 +1,166 @@
+body {
+    box-sizing: border-box;
+}
+
+.cont {
+    padding: 0 10rem;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+   
+}
+
+
+.div-container {
+   height: 90vh;
+   background-image: url(/women.webp) ;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+   
+}
+
+
+.tech {
+position: absolute;
+top: 74%;
+right: 25%;
+color: white;
+font-size: xx-large;
+letter-spacing: .5rem;
+
+}
+
+.button-tech {
+    position: absolute;
+top: 82%;
+right: 40%;
+}
+
+.frontend-intro {
+    font-size: 1.8rem;
+    font-weight:700;
+    color: rgba(0, 0, 0, 0.877)
+}
+
+.intro {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+}
+
+.footer {
+    background-color: rgb(10, 10, 10);
+    height: 4rem;
+    padding: 0 5rem;
+}
+
+.footer-text {
+    color: white;
+    padding: 0 10rem;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
+.link {
+    color: rgb(136, 134, 134)
+
+}
+
+@media (max-width: 390px) {
+
+   
+   
+   
+}
+
+
+@media (max-width: 670px) {
+
+    .tech {
+        position: absolute !important;
+        top: 75% !important;
+        right: 30% !important;
+        text-align: center !important;
+        color: white;
+        font-size: larger !important;
+        letter-spacing: .1rem !important;
+        
+        }
+    
+        
+        .button-tech {
+            position: absolute;
+        top: 82%;
+        right: 40%;
+        }
+
+    .cont {
+        padding: 0 1rem !important;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+       
+    }
+
+    
+    .footer-text {
+        color: white;
+        padding: 0 2rem !important;
+        font-size: .9rem !important;
+        padding-top: 1rem !important;
+    }
+    
+    .footer {
+        background-color: rgb(10, 10, 10);
+        height: 5rem !important;
+        padding: 0 0rem;
+    }
+    
+}
+
+
+@media (max-width: 900px) {
+   
+    .cont {
+        padding: 0 5rem;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+       
+    }
+    
+
+}
+
+@media (max-width: 1200px) {
+
+    
+   
+    .tech {
+        position: absolute;
+        top: 74%;
+        right: 15%;
+        color: white;
+        font-size: xx-large;
+        letter-spacing: .5rem;
+        
+        }
+        
+        .button-tech {
+            position: absolute;
+        top: 82%;
+        right: 40%;
+        }
+
+}
+
+@media (max-width: 1800px) {
+    .footer-text {
+        color: white;
+        padding: 0 10rem;
+        font-size: .8rem;
+        padding-top: 1rem;
+    }
+    
+
+}
